@@ -1,5 +1,3 @@
-import React from "react";
-
 function Header() {
   return (
     <div className="w-full h-14 bg-orange-700 flex justify-between items-center p-3  ">
