@@ -1,4 +1,3 @@
-import React from "react";
 import Empty from "../Empty";
 interface ProjectsType {
   title: string;
