@@ -8,3 +8,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     <App />
   </React.StrictMode>
 );
+
+
+
+// "start": "npm run format && npm run lint &&  vite",

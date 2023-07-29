@@ -1,16 +1,17 @@
 {
-  "name": "job-board-fe-react",
+  "name": "Task Manager",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "npm run format && npm run lint &&  vite",
+    
     "build": "npm run format && npm run lint && tsc && vite build",
     "lint": "eslint . --fix --max-warnings=0",
     "format": "prettier . --write",
     "preview": "vite preview",
     "lint-staged": "lint-staged --config lint-staged.js",
-    "husky-install": "husky install"
+    "husky-install": "husky install",
+    "dev":"vite"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -41,3 +42,6 @@
     "vite": "^4.3.9"
   }
 }
+
+
+
