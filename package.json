@@ -4,18 +4,19 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    
     "build": "npm run format && npm run lint && tsc && vite build",
     "lint": "eslint . --fix --max-warnings=0",
     "format": "prettier . --write",
     "preview": "vite preview",
     "lint-staged": "lint-staged --config lint-staged.js",
     "husky-install": "husky install",
-    "dev":"vite"
+    "dev": "vite"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router": "^6.14.2",
+    "react-router-dom": "^6.14.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
@@ -42,6 +43,3 @@
     "vite": "^4.3.9"
   }
 }
-
-
-
