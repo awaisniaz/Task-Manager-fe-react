@@ -2,6 +2,7 @@ import "./App.css";
 import Login from "./Components/Login/login";
 import Signup from "./Components/Signup";
 import Header from "./Components/Header";
+import Kanban from "./Components/kanban";
 import * as ReactDOM from "react-dom";
 import {
   createBrowserRouter,
@@ -9,7 +10,7 @@ import {
 } from "react-router-dom";
 function App() {
 
-  const login_routes = ["/", "/login"]?.map(item => {
+  const login_routes = ["/login"]?.map(item => {
     return {
       path: item,
       element: <Login />
@@ -21,6 +22,10 @@ function App() {
       path: "signup",
       element: <Signup />,
     },
+    {
+      path: "/",
+      element: <Kanban />
+    }
   ]);
   return (
     <><Header />
