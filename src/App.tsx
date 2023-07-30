@@ -8,7 +8,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-function App() {
+const App=()=> {
 
   const login_routes = ["/login"]?.map(item => {
     return {
